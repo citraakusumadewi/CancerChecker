@@ -6,9 +6,12 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="500dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
         android:background="#000"
+        android:layout_gravity="center"
         android:id="@+id/analisis_imageView"/>
 
     <LinearLayout
@@ -16,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="50dp"
         android:layout_below="@+id/analisis_imageView"
         android:orientation="vertical">
 
@@ -43,7 +46,7 @@
         android:id="@+id/analisis_resView"
         android:text="Prediction : "
         android:textSize="20dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_marginLeft="13dp"
         android:layout_below="@+id/analisis_linLayout"/>
 
