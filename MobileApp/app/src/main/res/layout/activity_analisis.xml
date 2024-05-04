@@ -13,32 +13,38 @@
 
     <LinearLayout
         android:id="@+id/analisis_linLayout"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:layout_below="@+id/analisis_imageView">
+        android:layout_below="@+id/analisis_imageView"
+        android:orientation="vertical">
+
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Sslect Image"
             android:id="@+id/analisis_selectBtn"
-            android:layout_marginRight="20dp"/>
-        <Button
-            android:layout_width="wrap_content"
+            android:layout_width="253dp"
             android:layout_height="wrap_content"
-            android:text="Predict Imagae"
-            android:id="@+id/analisis_predictBtn"/>
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="20dp"
+            android:text="Select Picture" />
+
+        <Button
+            android:id="@+id/analisis_predictBtn"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="5dp"
+            android:text="Analyze" />
     </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/analisis_resView"
-        android:text="Prediction"
+        android:text="Prediction : "
         android:textSize="20dp"
         android:layout_marginTop="10dp"
-        android:layout_marginLeft="10dp"
+        android:layout_marginLeft="13dp"
         android:layout_below="@+id/analisis_linLayout"/>
 
 </RelativeLayout>
